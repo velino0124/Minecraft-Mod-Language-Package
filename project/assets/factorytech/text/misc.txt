@@ -1,0 +1,56 @@
+$title 机器升级
+如果一台机器的性能不理想或不适合你的生产线，可以通过制作相应的升级组件并右键该机器安装拿到预期的效果，共有五种升级组件。一台机器只能安装一次升级组件。
+$end
+$title 升级：超频
+$recipe machines/upgrade_overclock
+这种升级能是机器的工作速度提高一倍，然而降低了损耗零件的使用寿命，使其更容易停止工作。
+$end
+$title 升级：降频
+$recipe machines/upgrade_underclock
+这种升级使机器工作速度只有原有的一半，但是却增加了损耗零件的寿命，有效延长了机器正常运行的时间。
+$end
+$title 升级：工作范围
+$recipe machines/upgrade_range
+对于能与世界进行交互的机器，范围升级增加了它们的有效工作半径。但是它对像钻研磨机这样不与世界交互的机器是无效的。
+$end
+$title 升级：持续运行
+$recipe machines/upgrade_consistency
+这种升级使得机器中的损耗零件的寿命延长一倍，但是开始工作后一旦停止，损耗零件将会立即损坏。
+$end
+$title 升级：效率
+$recipe machines/upgrade_efficiency
+这个升级增加了机器中损坏零件损坏后被回收的几率。
+$end
+$title 装饰性砖块
+$recipe deco/bricks_sandy
+$recipe deco/bricks_earthy
+$recipe deco/bricks_charcoal
+$recipe deco/bricks_ash
+不同颜色的砖块适合用来设计建造各种工业或其他建筑。
+$end
+$title 钣金
+$recipe deco/metal_patterned
+$recipe deco/metal_rivets
+$recipe deco/metal_smooth
+$recipe deco/metal_rusted
+$recipe deco/metal_siding
+$recipe deco/metal_caution
+如果觉得使用砖块来建造有点过时，那么钣金是另一种不错的选择。
+$end
+$title 烟囱
+$recipe deco/smokestack_brick
+$recipe deco/smokestack_sbrick
+$recipe deco/smokestack_ebrick
+$recipe deco/smokestack_cbrick
+$recipe deco/smokestack_abrick
+$recipe deco/smokestack_stone
+$recipe deco/smokestack_stonebrick
+$recipe deco/smokestack_iron
+$recipe deco/smokestack_pmetal
+烟囱有多种不同的工艺和样式，以便为你（不）环保（不）友好的生产线做出完美的装饰效果。
+（注意：它们是非常严格的有序合成，只能在合成台中间的那一列制作。）
+$end
+$title 装饰线圈
+$recipe deco/decocoil
+没有哪些高科技生产设施或疯狂科学家的实验室是没有这些东西的。使用猴子扳手右键点击其中一个，在右键点击另一个可以让两个线圈连接或断开。一旦连接，两个线圈之间就会出现电弧。正如人们所预料的那样，在他们从电弧中走过时……是不愉快的。给它们通入红石信号可以关闭它们。
+$end
